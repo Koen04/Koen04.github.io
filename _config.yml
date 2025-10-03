@@ -3,7 +3,7 @@ description: "Senior in Astronomy & Astrophysics at Florida Tech"
 url: "https://Koen04.github.io"
 repository: "Koen04/Koen04.github.io"
 
-theme: minimal-mistakes-jekyll
+theme: minima
 minimal_mistakes_skin: default
 
 author:
