@@ -7,7 +7,7 @@ remote_theme: mmistakes/minimal-mistakes@4.24.0
 minimal_mistakes_skin: dark
 
 locale: "en-US"
-timezone: "America/New_York"
+timezone: "EST. Standard Time"
 
 author:
   name: "Koen Schenck"
@@ -22,7 +22,7 @@ author:
       url: "https://github.com/Koen04"
       icon: "fab fa-github"
     - label: "LinkedIn"
-      url: "https://linkedin.com/in/koen-schenck"
+      url: "https://linkedin.com/in/koen-schenck/"
       icon: "fab fa-linkedin"
 
 plugins:
