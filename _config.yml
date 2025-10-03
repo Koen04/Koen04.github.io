@@ -3,14 +3,17 @@ description: "Senior in Astronomy & Astrophysics at Florida Tech"
 url: "https://Koen04.github.io"
 repository: "Koen04/Koen04.github.io"
 
-theme: minima
-minimal_mistakes_skin: default
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+minimal_mistakes_skin: dark
+
+locale: "en-US"
+timezone: "America/New_York"
 
 author:
   name: "Koen Schenck"
   bio: "Senior in Astronomy & Astrophysics at Florida Institute of Technology. Interested in exoplanets, stellar evolution, and computational astrophysics."
   location: "Melbourne, FL"
-  email: "your-email@example.com"
+  email: "kschenck2022@my.fit.edu"
   links:
     - label: "CV"
       url: "/cv/"
@@ -19,7 +22,7 @@ author:
       url: "https://github.com/Koen04"
       icon: "fab fa-github"
     - label: "LinkedIn"
-      url: "https://linkedin.com/in/YOUR-LINKEDIN"
+      url: "https://linkedin.com/in/koen-schenck"
       icon: "fab fa-linkedin"
 
 plugins:
