@@ -1,0 +1,10 @@
+title: Koen Schenck
+description: >- # this means to ignore newlines until "baseurl:"
+  An overview of my research publications and ongoing projects.
+baseurl: "" # leave empty if this is <username>.github.io
+url: "https://<Koen04>.github.io"
+theme: minima # GitHub supports this theme by default
+
+# Optional: show your GitHub Pages build versions in local `bundle info github-pages`
+plugins:
+  - jekyll-feed
