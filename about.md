@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is my about page.  
-You can edit it in `about.md` and commit changes — GitHub Pages rebuilds automatically.
+Hello! I am Koen Schenck. I am a senior at the Florida Institute of Technology, studying astronomy and astrophysics. I have completed projects in planetary science and currently have ongoing projects in cosmology and extra-galactic astronomy. 
