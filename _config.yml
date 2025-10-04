@@ -24,6 +24,11 @@ author:
     - label: "LinkedIn"
       url: "https://linkedin.com/in/koen-schenck/"
       icon: "fab fa-linkedin"
+      
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
 
 plugins:
   - jekyll-feed
