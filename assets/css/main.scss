@@ -1,0 +1,7 @@
+---
+# Only the triple dashes — this front matter tells Jekyll to process the file
+---
+
+@import "minimal-mistakes/skins/dark"; // or whichever skin you use
+@import "minimal-mistakes";            // base theme styles
+@import "custom";                      // your overrides
