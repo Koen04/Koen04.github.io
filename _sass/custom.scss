@@ -1,5 +1,29 @@
+.tile {
+  background: #1e293b;
+  color: white;
+  padding: 1.5em;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .tile:hover {
   transform: translateY(-6px);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.tiles img {
+  border-radius: 10px;
+}
+
+.tiles a {
+  background: #334155;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.tiles a:hover {
+  background: #475569;
 }
