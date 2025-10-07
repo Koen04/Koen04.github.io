@@ -1,0 +1,27 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/
+---
+
+<div class="page__content" style="text-align:center; margin-top:2em;">
+  <h1>My Research Projects</h1>
+  <p>Explore my current and past work below.</p>
+
+  <div class="tiles" style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:1.5em; margin-top:2em;">
+    {% for project in site.projects %}
+      <div class="tile" style="background:#1e293b; color:white; padding:1.5em; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.3);">
+        {% if project.image %}
+          <img src="{{ project.image }}" alt="{{ project.title }}" style="width:100%; border-radius:10px; margin-bottom:1em;">
+        {% endif %}
+        <h2 style="font-size:1.2em; margin-bottom:0.5em;">{{ project.title }}</h2>
+        <p style="font-size:0.95em; color:#cbd5e1;">{{ project.excerpt }}</p>
+        {% if project.paper_url %}
+          <a href="{{ project.paper_url }}" target="_blank" style="display:inline-block; margin-top:1em; background:#334155; color:white; padding:0.5em 1em; border-radius:8px; text-decoration:none;">Read the Paper</a>
+        {% else %}
+          <a href="{{ project.url | relative_url }}" style="display:inline-block; margin-top:1em; background:#475569; color:white; padding:0.5em 1em; border-radius:8px; text-decoration:none;">Learn More</a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
