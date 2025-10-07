@@ -35,6 +35,8 @@ plugins:
   
 include:
   - _pages
+include:
+  -_projects
 
 paginate: 5
 paginate_path: "/page:num/"
