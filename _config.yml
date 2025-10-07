@@ -43,6 +43,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      permalink: /:basename/
+
 
 markdown: kramdown
 highlighter: rouge
