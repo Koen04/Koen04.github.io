@@ -3,6 +3,7 @@ layout: page
 title: "Projects"
 permalink: /projects/
 ---
+
 <div class="project-grid">
   {% for project in site.projects %}
   <div class="project-card">
