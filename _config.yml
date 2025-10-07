@@ -25,7 +25,7 @@ author:
 collections:
   projects:
     output: true
-    permalink: /:projects/:path/
+    permalink: /:projects/:name/
 
 plugins:
   - jekyll-feed
@@ -33,10 +33,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   
-include:
-  - _pages
-include:
-  -_projects
+include: ["_pages", "_projects"]
+
 
 paginate: 5
 paginate_path: "/page:num/"
@@ -53,7 +51,7 @@ defaults:
       path: "_pages"
     values:
       layout: page
-      permalink: /:basename/
+      #permalink: /:basename/
 
 
 markdown: kramdown
