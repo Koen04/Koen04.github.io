@@ -33,7 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   
-include: ["_pages", "_projects"]
+include: ["_pages", "_projects", "_sass"]
 
 
 paginate: 5
