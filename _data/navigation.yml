@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /
   - title: "CV"
-    url: /assets/files/Koen_Schenck_CV.pdf
+    url: /cv/
   - title: "Projects"
     url: /projects/
   - title: "About"
