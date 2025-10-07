@@ -25,7 +25,7 @@ author:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:projects/:path/
 
 plugins:
   - jekyll-feed
