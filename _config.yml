@@ -33,7 +33,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-include-cache
   
-include: ["_pages", "_projects", "_sass"]
+include: ["_pages", "_projects", "_sass", "assets/files"]
 
 sass:
   sass_dir: _sass
