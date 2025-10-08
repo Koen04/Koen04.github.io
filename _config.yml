@@ -35,6 +35,9 @@ plugins:
   
 include: ["_pages", "_projects", "_sass"]
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
 paginate: 5
 paginate_path: "/page:num/"
