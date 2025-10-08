@@ -1,5 +1,5 @@
 ---
-title: "Assessment of molecular has in M42"
+title: "Assessment of molecular gas in M42"
 image: /assets/images/ohmic.png
 ---
 
