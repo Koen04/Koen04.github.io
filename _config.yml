@@ -13,7 +13,13 @@ author:
   name: "Koen Schenck"
   avatar: "/assets/images/profile.jpg"
   bio: "I am a Senior in Astronomy & Astrophysics at Florida Institute of Technology. Interested in exoplanets, stellar evolution, and computational astrophysics."
-      
+
+# Navigation bar
+header_pages:
+  - _pages/about.md
+  - _pages/cv.md
+  - _pages/projects.md
+
 collections:
   projects:
     output: true
