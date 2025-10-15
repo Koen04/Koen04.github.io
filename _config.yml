@@ -4,7 +4,7 @@ url: "https://Koen04.github.io"
 repository: "Koen04/Koen04.github.io"
 
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: "dark"
 
 locale: "en-US"
 timezone: "EST. Standard Time"
@@ -19,6 +19,7 @@ header_pages:
   - _pages/about.md
   - _pages/cv.md
   - _pages/projects.md
+
 
 collections:
   projects:
