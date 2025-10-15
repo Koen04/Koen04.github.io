@@ -1,0 +1,14 @@
+koen_schenck:
+  name: "Koen Schenck"
+  bio: "Senior in Astronomy & Astrophysics at Florida Institute of Technology. Interested in exoplanets, stellar evolution, and computational astrophysics."
+  location: "Melbourne, FL"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/koen04"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/koenschenck/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:kschenck2022@my.fit.edu"
