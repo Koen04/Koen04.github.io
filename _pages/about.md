@@ -1,8 +1,10 @@
 ---
-layout: page
-title: "About"
+layout: single
+title: "About Me"
 permalink: /about/
 author_profile: true
 ---
+I am a senior studying Astronomy & Astrophysics at the Florida Institute of Technology.  
+My research interests include **exoplanet atmospheres**, **stellar evolution**, and **computational astrophysics**.  
 
-My name is Koen Schenck. I am a senior at the Florida Institute of Technology, majoring in Astronomy and Astrophysics. This personal website provides an overview of my publications and current projects. My external GitHub repositories are listed on this website. Click on one of the buttons to learn more about my current projects. 
+I use modeling tools like **MESA** and data from the **NASA Exoplanet Archive** to investigate the evolution of planetary systems.
