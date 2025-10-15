@@ -1,2 +1,10 @@
-/* custom.scss */
+/* Enable dark theme styling */
 @import "minimal-mistakes/skins/dark";
+
+/* Personal tweaks */
+.site-header {
+  background-color: #000 !important;
+}
+.page__title {
+  color: #fff;
+}
