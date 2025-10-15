@@ -1,46 +1,46 @@
 title: "Koen Schenck"
-description: "Senior in Astronomy & Astrophysics at Florida Tech"
-url: "https://Koen04.github.io"
-repository: "Koen04/Koen04.github.io"
+name: "Koen Schenck"
+description: "Senior in Astronomy & Astrophysics at Florida Institute of Technology"
+url: "https://koen04.github.io"
+baseurl: ""
+repository: "koen04/koen04.github.io"
 
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"
 
-locale: "en-US"
-timezone: "EST. Standard Time"
+plugins:
+  - jekyll-include-cache
 
+# Author
 author:
   name: "Koen Schenck"
   avatar: "/assets/images/profile.jpg"
-  bio: "I am a Senior in Astronomy & Astrophysics at Florida Institute of Technology. Interested in exoplanets, stellar evolution, and computational astrophysics."
+  bio: "Senior in Astronomy & Astrophysics at Florida Institute of Technology."
+  location: "Melbourne, FL"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/koen04"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/koenschenck/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:kschenck2022@my.fit.edu"
 
-# Navigation bar
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navbar
 header_pages:
+  - _pages/home.md
   - _pages/about.md
-  - _pages/cv.md
   - _pages/projects.md
+  - _pages/cv.md
 
-
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-include-cache
-  
-include: ["_pages", "_projects", "_sass", "assets/files"]
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-paginate: 5
-paginate_path: "/page:num/"
-
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -48,13 +48,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-
   - scope:
-      path: "_pages"
+      path: ""
+      type: pages
     values:
-      layout: page
-
-
-
-markdown: kramdown
-highlighter: rouge
+      layout: single
+      author_profile: true
