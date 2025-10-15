@@ -11,16 +11,8 @@ timezone: "EST. Standard Time"
 
 author:
   name: "Koen Schenck"
+  avatar: "/assets/images/profile.jpg"
   bio: "I am a Senior in Astronomy & Astrophysics at Florida Institute of Technology. Interested in exoplanets, stellar evolution, and computational astrophysics."
-  location: "Melbourne, FL"
-  email: "kschenck2022@my.fit.edu"
-  links:
-    - label: "GitHub"
-      url: "https://github.com/Koen04"
-      icon: "fab fa-github"
-    - label: "LinkedIn"
-      url: "https://linkedin.com/in/koen-schenck/"
-      icon: "fab fa-linkedin"
       
 collections:
   projects:
