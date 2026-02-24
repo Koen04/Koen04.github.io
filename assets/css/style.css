@@ -44,7 +44,7 @@ header {
     height: 100vh;
 
     /* Desktop parallax */
-    background: url('../images/newbackground.jpg') no-repeat center center / cover;
+    background: url('../images/background.jpg') no-repeat center center / cover;
     background-attachment: scroll; /* changed from fixed */
 
     display: flex;
